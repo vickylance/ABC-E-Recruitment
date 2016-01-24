@@ -61,8 +61,8 @@
 
     <script>
         function getFlickerSolved() {
-            document.getElementById('<%=LoginPanel.ClientID%>').style.display = 'none';
-            document.getElementById('<%=RegisterPanel.ClientID%>').style.display = 'none';
+            document.getElementById('<%=LoginPanel.ClientID%>').style.display = "none";
+            document.getElementById('<%=RegisterPanel.ClientID%>').style.display = "none";
         }
     </script>
 
