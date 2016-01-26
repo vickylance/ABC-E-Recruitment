@@ -74,8 +74,45 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Bootswatch\Cerulean\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Cerulean\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Cosmo\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Cosmo\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Cyborg\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Cyborg\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Darkly\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Darkly\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Flatly\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Flatly\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Journal\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Journal\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Lumen\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Lumen\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Paper\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Paper\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Readable\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Readable\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Sandstone\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Sandstone\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Simplex\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Simplex\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Slate\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Slate\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Spacelab\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Spacelab\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Superhero\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Superhero\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\United\bootstrap.css" />
+    <Content Include="Content\Bootswatch\United\bootstrap.min.css" />
+    <Content Include="Content\Bootswatch\Yeti\bootstrap.css" />
+    <Content Include="Content\Bootswatch\Yeti\bootstrap.min.css" />
+    <Content Include="fonts\overseer\Font License.txt" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
+    <Content Include="fonts\overseer\Overseer Bold Italic.otf" />
+    <Content Include="fonts\overseer\Overseer Bold.otf" />
+    <Content Include="fonts\overseer\Overseer Italic.otf" />
+    <Content Include="fonts\overseer\Overseer.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,10 +169,7 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Content\Bootswatch\" />
-    <Folder Include="fonts\overseer\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
