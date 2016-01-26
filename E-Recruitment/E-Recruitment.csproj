@@ -74,6 +74,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\E-Recruitment.dll" />
+    <Content Include="bin\E-Recruitment.pdb" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
     <Content Include="Content\Bootswatch\Cerulean\bootstrap.css" />
     <Content Include="Content\Bootswatch\Cerulean\bootstrap.min.css" />
     <Content Include="Content\Bootswatch\Cosmo\bootstrap.css" />
@@ -113,6 +120,7 @@
     <Content Include="fonts\overseer\Overseer Bold.otf" />
     <Content Include="fonts\overseer\Overseer Italic.otf" />
     <Content Include="fonts\overseer\Overseer.otf" />
+    <Content Include="bin\E-Recruitment.dll.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
