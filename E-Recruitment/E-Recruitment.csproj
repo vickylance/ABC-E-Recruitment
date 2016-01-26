@@ -74,13 +74,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\AjaxControlToolkit.dll" />
-    <Content Include="bin\E-Recruitment.dll" />
-    <Content Include="bin\E-Recruitment.pdb" />
-    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
-    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
-    <Content Include="bin\Newtonsoft.Json.dll" />
-    <Content Include="bin\Newtonsoft.Json.xml" />
     <Content Include="Content\Bootswatch\Cerulean\bootstrap.css" />
     <Content Include="Content\Bootswatch\Cerulean\bootstrap.min.css" />
     <Content Include="Content\Bootswatch\Cosmo\bootstrap.css" />
@@ -113,6 +106,11 @@
     <Content Include="Content\Bootswatch\United\bootstrap.min.css" />
     <Content Include="Content\Bootswatch\Yeti\bootstrap.css" />
     <Content Include="Content\Bootswatch\Yeti\bootstrap.min.css" />
+    <Content Include="ExternalLib\AjaxControlToolkit.dll" />
+    <Content Include="ExternalLib\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="ExternalLib\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="ExternalLib\Newtonsoft.Json.dll" />
+    <Content Include="ExternalLib\Newtonsoft.Json.xml" />
     <Content Include="fonts\overseer\Font License.txt" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
@@ -120,7 +118,6 @@
     <Content Include="fonts\overseer\Overseer Bold.otf" />
     <Content Include="fonts\overseer\Overseer Italic.otf" />
     <Content Include="fonts\overseer\Overseer.otf" />
-    <Content Include="bin\E-Recruitment.dll.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
